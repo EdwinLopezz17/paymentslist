@@ -72,8 +72,8 @@ const people = [
     {
       name: "Fabiola",
       position: "Leader",
-      fullPayment: "Pending",
-      paymentDate: null,
+      fullPayment: "Completed",
+      paymentDate: "10/12/2024",
       amount: 11,
       currency: "PEN",
       gender: "Female",
