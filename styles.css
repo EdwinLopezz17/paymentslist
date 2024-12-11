@@ -1,0 +1,74 @@
+/* General reset and basic styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a202c; /* Oscuro elegante */
+    color: #e2e8f0; /* Texto claro */
+    line-height: 1.6;
+}
+
+.container {
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #2d3748;
+    background: linear-gradient(145deg, #2d3748, #4a5568); /* Fondo con gradiente oscuro */
+    display: flex;
+    flex-direction: column;
+    color: #edf2f7; /* Texto blanco */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card.completed {
+    background: linear-gradient(145deg, #4ade80, #16a34a); /* Verde elegante para completados */
+    border-color: #10b981;
+    color: #f0fdf4; /* Texto claro */
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f0fdf4; /* Texto blanco */
+}
+
+.card-header span {
+    font-size: 2rem;
+    color: #a0aec0; /* Icono discreto */
+}
+
+.card-details {
+    font-size: 1rem;
+    color: #cbd5e0; /* Texto claro */
+}
+
+.card-details p {
+    margin: 0.5rem 0;
+}
+
+.card-details strong {
+    font-weight: bold;
+    color: #e2e8f0; /* Resaltar */
+}
