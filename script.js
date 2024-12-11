@@ -2,7 +2,7 @@ const people = [
     {
       name: "Aixa",
       position: "Internal",
-      fullPayment: "Pending",
+      fullPayment: "Completed",
       paymentDate: null,
       amount: 6,
       currency: "PEN",
@@ -82,7 +82,7 @@ const people = [
     {
       name: "Sheyla",
       position: "Leader",
-      fullPayment: "Pending",
+      fullPayment: "Completed",
       paymentDate: null,
       amount: 11,
       currency: "PEN",
